@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triaxx</title>
+
+    <link rel="stylesheet" type="text/css" href="../AllCSS.css">
+
+    <style>
+    #Banner {
+    background-image: url(../assets/Banner.jpg);
+    }
+
+    body {
+        background-image: url("https://www.triaxx.ngl/Thumbs/Place.ashx?id=1");
+    }
+</style>
+</head>
+<body>
+    <style>
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+
+  width: 250vmax;
+  height: 250vmax;
+
+  left: 50%;
+  top: 50%;
+  transform-origin: center;
+  
+background: linear-gradient(
+  45deg,
+  darkred,
+  goldenrod,
+  darkgreen,
+  darkblue,
+  darkcyan,
+  darkmagenta,
+  darkred
+);
+
+  animation:
+    spin 20s linear infinite,
+    hueShift 5s linear infinite;
+
+  z-index: -1;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes hueShift {
+  from { filter: hue-rotate(0deg); }
+  to   { filter: hue-rotate(360deg); }
+}
+</style>
+<form method="POST" action="./api/login.aspx"
+      style="min-height:100vh; display:flex; justify-content:center; align-items:center; margin:0;">
+
+    <div id="Body">
+		<center>
+		<img src="/assets/TriaxxBanner.png" width="270px" height="70px">
+            <div id="PaneLogin">
+                <h3>Welcome back!</h3>
+
+                <div class="AspNet-Login">
+
+                    <div class="AspNet-Login-UserPanel">
+                        <label for="username"><em>U</em>ser Name:</label>
+                        <input type="text" id="username" name="username" required/>
+                    </div>
+
+                    <div class="AspNet-Login-PasswordPanel">
+                        <label for="password"><em>P</em>assword:</label>
+                        <input type="password" id="password" name="password" required/>
+                    </div>
+					
+                    <div class="AspNet-Login-SubmitPanel">
+						<input type="button" value="Sign up" onclick="window.location.replace('/Login/New.aspx')" />
+                        <input type="submit" value="Log In" id="login" name="login" />
+                    </div>
+
+                    <div class="AspNet-Login-PasswordRecoveryPanel">
+                        <a href="ResetPasswordRequest.aspx">Forgot your password?</a>
+                    </div>
+
+					<br>
+					<h1>Build, Create and more!</h1>
+          <br>
+          <h2>
+          <a href="https://discord.gg/tuHDbhn3JY">Discord invite!</a>
+          </h2>
+                </div>
+            </div>
+		</center>
+    </div>
+</form><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a12f18f1ae148d81',t:'MTc4MjY3NDkzNg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
