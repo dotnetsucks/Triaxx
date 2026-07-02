@@ -1,0 +1,23 @@
+The Wayback Machine - https://web.archive.org/web/20080511111323/http://
+www.roblox.com:80/Game/Help.aspx
+
+Besides using simple blocks, you can insert Things that other people
+have built into your Place. Use the Insert... menu in the game to browse.
+
+Action 	Primary 	Alternate
+Move Character 	Arrow keys 	ASDW keys
+Move Character (no tool selected) 	Click location with green disk 	
+Jump 	Space Bar 	
+Look up/down/left/right 	Right-click and drag mouse 	
+Look side to side 	Move mouse to the far right or far left 	
+Zoom in/out and up/down 	Mouse wheel 	I (in) and O (out) keys
+Change Tool / Toggle tool on off 	Number keys 1, 2, 3, ... 	Click on the
+tool
+Drop Tool 	Backspace key 	
+Drop Hat 	Equal (=) key 	
+Regenerate dead or stuck character 	Character regenerates automatically
+	Exit and then return to the Place
+First Person Mode 	Zoom all the way in 	
+		
+		
+

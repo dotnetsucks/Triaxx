@@ -1,0 +1,2 @@
+<?php
+define('GLOBAL_AUTH_KEY', 'TRIAXX-dsiufjhgduifghjrshdfuigfsjhuisdguihdnfhsguidufh98tuiSD8SI78GFUIYG89DFUGHDJS0R9GOISYFHTJ0GS8DOFYUHGJ80IO80diusgyfja08tuigbs8tdyugbfsd9oghsdfuiogusfdhiuhvjsf0oghsifouhgusodfij');

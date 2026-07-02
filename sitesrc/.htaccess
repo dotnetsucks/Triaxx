@@ -1,0 +1,15 @@
+RewriteEngine On
+
+Options -Indexes
+
+ErrorDocument 404 /404.php
+
+# RewriteCond %{REQUEST_URI} !^/maintenance\.php$
+RewriteCond %{REQUEST_URI} !^/404\.php$
+
+RewriteRule ^(.+)\.(aspx|ashx|xsd)$ $1.php [L,NC]
+
+RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|jpeg|gif|ico|svg|webp)$
+# RewriteCond %{REQUEST_URI} !^/maintenance\.php$
+# RewriteRule ^.*$ /maintenance.php [L]
+
